@@ -1,0 +1,36 @@
+form {
+    width: 700px;
+    margin: 10px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+.f1 {
+    margin-left: 10px;
+}
+
+
+hr {
+    width: 99%;
+}
+
+.inputi {
+    height: 1.5rem;
+    width: 90%;
+}
+
+
+.dugma {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 500px) {
+
+    .dugma {
+        grid-template-columns: 1fr;
+    }
+    
+}
